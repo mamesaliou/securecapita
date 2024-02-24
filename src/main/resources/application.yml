@@ -1,26 +1,3 @@
-server:
- port:
-    8082
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/securecapita?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
-    username: root
-    password: mysql
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL8InnoDBDialect
-    generate-ddl: true
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        globaly_quoted_identifiers: true
-        dialect: org.hibernate.dialect.MySQL8Dialect
-        format_sql: true
-  sql:
-    init:
-      mode: always
-      continue-on-error: false
-  beaninfo:
-    ignore:
-
+Spring:
+  profile:
+    active: dev

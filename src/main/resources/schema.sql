@@ -117,11 +117,11 @@
 #
 # *************************************************************
 
-use securecapita;
-select * users;
-select * roles;
-insert into securecapita.roles(name, permission)
-value ('ROLE_USER','READ:USER, READ:CUSTOMER'),
-      ('ROLE_MANAGER','READ:USER, READ:CUSTOMER, UPDATE:USER, UPDATE:CUSTOMER'),
-      ('ROLE_ADMIN','READ:USER, READ:CUSTOMER, CREATE:USER, CREATE:CUSTOMER, UPDATE:USER, UPDATE:CUSTOMER'),
-      ('ROLE_SYSADMIN','READ:USER, READ:CUSTOMER, CREATE:USER, CREATE:CUSTOMER, UPDATE:USER, UPDATE:CUSTOMER, DELETE:USER, DELETE:CUSTOMER');
+# use securecapita;
+# select * users;
+# select * roles;
+# insert into securecapita.roles(name, permission)
+# value ('ROLE_USER','READ:USER, READ:CUSTOMER'),
+#       ('ROLE_MANAGER','READ:USER, READ:CUSTOMER, UPDATE:USER, UPDATE:CUSTOMER'),
+#       ('ROLE_ADMIN','READ:USER, READ:CUSTOMER, CREATE:USER, CREATE:CUSTOMER, UPDATE:USER, UPDATE:CUSTOMER'),
+#       ('ROLE_SYSADMIN','READ:USER, READ:CUSTOMER, CREATE:USER, CREATE:CUSTOMER, UPDATE:USER, UPDATE:CUSTOMER, DELETE:USER, DELETE:CUSTOMER');
