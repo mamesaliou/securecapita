@@ -14,7 +14,7 @@
 	<name>securecapita</name>
 	<description>Full Stack Spring Angula project </description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
